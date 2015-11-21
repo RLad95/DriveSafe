@@ -19,11 +19,6 @@ void loop() {
   Serial.print("The room temperature degree is:");
   Serial.println(temperature);
   
-  while (temperature > 19 && temperature < 23)
-  {
-    
-  }
-  
   while (temperature > 23 && temperature < 26)
   {
     delay(5000);
